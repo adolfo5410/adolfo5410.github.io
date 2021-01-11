@@ -5,6 +5,7 @@
 body {
 	background: #FAEBD7 url('../images/vintage-concrete.png');
 	color: #333;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -26,7 +27,8 @@ header {
 	color: BlanchedAlmond;
 	min-height: 100px;
 	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	background-image:("../images/stars.jpeg");
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header h1 {
