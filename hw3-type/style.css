@@ -1,0 +1,97 @@
+/*
+font-family: 'Cormorant Garamond', Serif;
+font-size: 55px;
+font-family: 'Fira Sans', Sans-Serif;
+font-size: 15px;
+*/
+
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	background-image: url(https://news.psu.edu/sites/default/files/styles/threshold-992/public/MartinLutherKing.jpg?itok=pkldkZ2G);
+	background-size: cover;
+	width: 100vw;
+	
+	
+}
+header.grid-header {
+	display: flex;
+	justify-content: space-between;
+}
+body {
+	font-family: 'Fira Sans', Sans-Serif;
+	font-size: 20px;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Cormorant Garamond', Serif;
+	color:white
+}
+
+h1 {
+	font-size: 90px;
+	margin: 0;
+	writing-mode: horizontal-tb;
+text-orientation: mixed;
+padding: 20px 10px;
+margin-left: 20px;
+
+}
+
+h2 {
+	font-size: 60px;
+	margin-top: 400px;
+	margin-right: 40px;
+	text-align: right;
+}
+
+p {
+	line-height: 40px;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+}
+.grid-main {
+	display: flex;
+}
+
+.grid-main p {
+	margin:60px;
+}
+.grid-main p:nth-child(1) {
+	flex: 45%;
+}
+.grid-main p:nth-child(2) {
+	flex: 55%;
+}
+
+.intro span {
+	font-size: 60px; 
+	font-weight:bold;
+	font-family: 'Cormorant Garamond', Serif;
+}
+blockquote {
+	font-style:italic;
+	font-size: 48px;
+	font-family: 'Cormorant Garamond', Serif;
+	text-align: center;
+}
+blockquote::after {
+  content: "”";
+  color:coral
+}
+
+blockquote::before {
+  content: "“";
+  color:coral
+}
+em { 
+	font-weight: bold; 
+	color:coral
+}
