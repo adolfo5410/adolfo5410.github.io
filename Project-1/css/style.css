@@ -1,0 +1,179 @@
+/* Enter your Styles below! */
+
+body { 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    background-color:rgb(245, 235, 220)     }
+
+main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav {
+    float: right;
+    }
+    
+    nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+
+    h1, h2, h3, h4 {
+        font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
+    float:left
+    
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+    font-style: normal;
+    font-weight:600;
+}
+
+h4 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight:600;
+}
+
+hr {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 0.5em;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.csub {
+    margin-left: 200px;
+    padding-top: 20px;
+    line-height: 27px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+}
+
+.grid-container5 {
+    display: grid;
+    grid-template-columns: 1fr  ;
+    column-gap: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 27px;
+  
+    row-gap: 30px;
+
+}
+
+.grid-item-5 {
+    padding-top: 50px;
+}
+.grid-item-6 {
+    padding-top: 50px;
+}
+
+
+blockquote {
+    margin: 20px 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer {
+    width: 100%;
+    height: 28px;
+    border-top: 1px solid #E0E0E0;
+    
+    bottom: 0px; 
+    left: 0px; 
+    text-align: center;
+    font-size: 10pt; 
+    
+}
+
+header {margin-bottom: 20px;}
+
+/* ensures that your images stretch the width of their containers */
+img { width: 100%; }
+
+.cover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    width: 1000px;
+    height: 1000px;
+}
+
+a { 
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover { color: rgb(121, 59, 2); }
+
+@media only screen and (min-width:1772px) {
+    
+}
+
+@media only screen and (min-width:1440px) {
+    
+}
