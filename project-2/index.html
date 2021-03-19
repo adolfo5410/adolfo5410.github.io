@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
 <head>
 	<meta charset="UTF-8">
 	<title>Project One Template - Homepage</title>
@@ -16,70 +16,142 @@
 <body>
 
 <!-- These semantic tags were added to help you get started but you are very welcome to delete any of them and do your own thing -->
-<div class="container">
 
-	<header>
-		<div class="solve">
-		<img src=images\solve.png>
+<div class="container">
+<header>
+	<div class="solve">
+		<img src=images/solve.png>
 		
 	</div>
-	<nav>
-		<ul>
-			<li><a href="#">ABOUT</a></li>
-			<li><a href="#">VOLUNTEER</a></li>
-			<li><a href="#">EVENTS</a></li>
-			<li><a href="#">DONATE</a></li>
-			<li><a href="#">SHOP</a> </li>
-		</ul>
-	</nav>
-	
+	<div>
+		<nav>
+			<ul>
+				<li><a class="#about" href="#about">ABOUT</a></li>
+				<li><a href="#volunteer">VOLUNTEER</a></li>
+				<li><a href="#events">EVENTS</a></li>
+				<li><a href="#donate">DONATE</a></li>
+				<li><a href="#shop">SHOP</a> </li>
+			</ul>
+		</nav>
+	</div>
 </div>
 </header>
-<div class="first">
-	<img class="banner2" src=images\banner2.png>
-	<h1 class="first-h1">OUR STORY</h1>
-	<h2 class="first-h2">SOLVE restores and preserves Oregon’s environment by mobilizing the power of volunteers and partners with the generosity of donors. Across the state, we bring diverse communities together to improve the health and safety of our neighborhoods and natural areas including our coast, rivers, parks, and forests.</h2>
 </div>
-<section>
-	<div class="second">
-		<img class="banner3" src=images\banner3.webp>
-		<div class="boxed"></div>
-		<h1 class="second-h1">GET INVOLVED</h1>
-		<div class="box1"><h3>LET'S SOLVE</h3></div>
-		<h2 class="second-h2">SOLVE offers free cleanup supplies and volunteer recruitment assistance to all Event Leaders. Every successful project begins with a vision and effective planning. 
-		</h2>
+<section id="about" class="parallax-wrapper2">
+				<div class="parallax">
+					<div class="bluebox">
+
+						<h1 class="first-h1">OUR STORY</h1>
+						<h2 class="first-h2">SOLVE restores and preserves Oregon’s environment by mobilizing the power of volunteers and partners with the generosity of donors. Across the state, we bring diverse communities together to improve the health and safety of our neighborhoods and natural areas including our coast, rivers, parks, and forests.</h2>
+					</div>
+				</div>
 	</div>
 </section>
-<section>
-	<div class="third">
-		<div class=third-box></div>
-		<img class="banner4" src=images\banner4.jpg>
-		<h1 class="third-h1">UPCOMING EVENTS</h1>
-		<h4 class="third-h4">
-			SPRING CLEANUP
-			MARCH 8, 2021 (10AM - 12PM)
-		</h4>
-		<h2 class="third-h2">SOLVE celebrated its annual Beach & Riverside Cleanup a little differently in 2020. Volunteers still pulled ivy and dug out blackberry vines from trails and parks. They still came out to the beach, bringing their friends and family to help pick up after the summer crowds. 
-		</h2>
+<section id='volunteer'>
+	<div class="second">
+		<div class="boxed">
+			<h1 class="second-h1">GET INVOLVED</h1>
+			<h2 class="second-h2">SOLVE offers free cleanup supplies and volunteer recruitment assistance to all Event Leaders. Every successful project begins with a vision and effective planning. 
+			</h2>
+			<div class="box1"><h3>LET'S SOLVE</h3></div>
+	</div>
+	<!--<div class="second-image"><img class="banner3" src="images/banner3.webp"></div>-->
+<div class="greenbox">
+	<div class="second-image"><div class="greenbox"></div></div>
+
+</div>
+</section>
+<section id="events" class="third">
+		<div class="bluebox-2">
+
+			<div class=third-box></div>
+			<!--<img class="banner4" src="images/banner4.jpg">-->
+			<h1 class="third-h1">UPCOMING EVENTS</h1>
+			<h4 class="third-h4">
+				SPRING CLEANUP
+				MARCH 8, 2021 (10AM - 12PM)
+			</h4>
+			<h2 class="third-h2">SOLVE celebrated its annual Beach & Riverside Cleanup a little differently in 2020. Volunteers still pulled ivy and dug out blackberry vines from trails and parks. They still came out to the beach, bringing their friends and family to help pick up after the summer crowds. 
+			</h2>
+		</div>
 	</div>
 </section>	
-<section>
-	<div class="fourth">
-		<div class=fourth-box></div>
-		<div class=fourth-click-box><h3>DONATE</h3></div>
+<section id='donate'>
+	<div class="fourth" id="#fourth">
+		<!--<div class=fourth-box></div>-->
+	<div>
 		<h1 class="fourth-h1">WAYS TO HELP</h1>
 		<h2 class="fourth-h2">Make a donation today to help SOLVE keep community events going and keep our state clean. As a non-profit organization we value the help of our community and know that together we can make a difference.
-		</h2>
+			</h2>
 	</div>
+	
+	<div class="donation-form">
+		<p>Donation amount</p>
+		<div class="section">
+			<input type="text" placeholder="$0.00">
+		</div>
+		<div class="section">
+			<input type="text" placeholder="cardnumber">
+		</div>
+		<div class="section">
+		<input type="text" placeholder="cardholder name">
+		</div>
+		<div class="section">
+				<input type="text" placeholder="MM/YY">
+			</div>
+		<div class="section">
+			<div class="item">
+				<input type="text" placeholder="CVV">
+			</div>
+			<div class="box2">
+				<div><h3>Donate</h3></div>
+		</div>
+
 </section>	
-<section>
-	<div class="fifth">
-		<div class=fifth-box></div>
-		<img class="shirt" src=images\shirt1.webp>
-		<h1 class="fifth-h1">SHOP RECYCLED</h1>
-		<h2 class="fifth-h2">Shop from our selection of recycled Goods, all proceeds go to helping keep local clean up opperations alive.
-		</h2>
-	</div>
+<section id= shop class="shop">
+	<!--<div class="fifth">
+		
+		<div class="shirt"></div>-->
+		<!-- carousel test-->
+		<div class="carousel">
+			<button class="carousel__button carousel__button--left">
+				<img src="images/left.svg" alt="left">
+			</button>
+			<div class="carousel__track-container">
+				<ul class="carousel__track">
+					<li class="carousel__slide">
+						<img class="carousel__image" src="images/shirt1.webp" alt="shirt1">
+					</li>
+					<li class="carousel__slide">
+						<img class="carousel__image" src="images/shirt2.webp" alt="shirt2">
+					</li>
+					<li class="carousel__slide">
+						<img class="carousel__image" src="images/shirt3.webp" alt="shirt3">
+					</li>
+				</ul>
+			</div>
+		
+			<button class="carousel__button carousel__button--right"><img src="images/right.svg" alt="right"></button>
+			<div class="carousel__nav">
+				<button class="carousel__indicator current-slide"></button>
+				<button class="carousel__indicator"></button>
+				<button class="carousel__indicator"></button>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<!-- carousel test-->
+
+		<div>
+			<h1 class="fifth-h1">SHOP RECYCLED</h1>
+			<h2 class="fifth-h2">Shop from our selection of recycled Goods, all proceeds go to helping keep local clean up opperations alive.
+			</h2>
+		</div>
+	
 </section>	
 <footer>
 	<!-- footer content here -->
